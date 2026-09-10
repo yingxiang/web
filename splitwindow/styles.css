@@ -74,6 +74,18 @@ nav a[aria-current="page"],
 footer a:hover,
 .text-link:hover { color: var(--accent); }
 
+nav .store-link {
+  min-height: 36px;
+  display: inline-flex;
+  align-items: center;
+  padding: 0 14px;
+  color: #ffffff;
+  background: var(--accent);
+  border-radius: 6px;
+}
+
+nav .store-link:hover { color: #ffffff; background: var(--accent-hover); }
+
 .hero {
   min-height: 520px;
   padding: 64px 0 54px;

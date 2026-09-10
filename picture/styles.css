@@ -22,6 +22,8 @@ a { color: inherit; }
 nav { display: flex; flex-wrap: wrap; align-items: center; justify-content: flex-end; gap: 18px; }
 nav a, footer a { color: var(--muted); font-size: .92rem; font-weight: 650; text-decoration: none; }
 nav a:hover, nav a[aria-current="page"], footer a:hover, .text-link:hover { color: var(--accent); }
+nav .store-link { min-height: 36px; display: inline-flex; align-items: center; padding: 0 14px; color: #fff; background: var(--accent); border-radius: 6px; }
+nav .store-link:hover { color: #fff; background: var(--accent-hover); }
 .hero { min-height: 540px; padding: 64px 0 54px; display: flex; flex-direction: column; align-items: flex-start; justify-content: center; border-bottom: 1px solid var(--line); }
 .app-icon { margin-bottom: 28px; box-shadow: 0 16px 38px rgba(4, 105, 70, .18); }
 .eyebrow, .section-label { margin: 0 0 12px; color: var(--accent); font-size: .78rem; font-weight: 750; text-transform: uppercase; }
