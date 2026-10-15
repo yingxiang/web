@@ -32,6 +32,11 @@
   document.getElementById('contact-heading').textContent = content.contact;
   const nav = document.getElementById('navigation'); nav.replaceChildren();
   routes.forEach((page, i) => nav.append(link(page, content.nav[i])));
+  const download = document.createElement('a');
+  download.className = 'store-link';
+  download.href = 'macappstore://apps.apple.com/app/id6821778161';
+  download.textContent = content.download;
+  nav.append(download);
   const sections = document.getElementById('sections'); sections.replaceChildren();
   content[route].forEach(([title, text]) => {
     const section = document.createElement('section');

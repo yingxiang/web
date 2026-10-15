@@ -58,7 +58,8 @@ const keyboardPages = {
         "联系技术支持",
         "请邮件提供应用版本、macOS 版本、所用场景、复现步骤和可见错误信息。"
       ]
-    ]
+    ],
+    "download": "下载"
   },
   "en": {
     "name": "Keyboard Garden",
@@ -119,7 +120,8 @@ const keyboardPages = {
         "Contact support",
         "Email the app version, macOS version, selected scene, steps to reproduce and any visible error message."
       ]
-    ]
+    ],
+    "download": "Download"
   },
   "de": {
     "name": "Keyboard Garden",
@@ -180,7 +182,8 @@ const keyboardPages = {
         "Support kontaktieren",
         "Sende App-Version, macOS-Version, Szene, Schritte zur Reproduktion und Fehlermeldung per E-Mail."
       ]
-    ]
+    ],
+    "download": "Herunterladen"
   },
   "ru": {
     "name": "Keyboard Garden",
@@ -241,7 +244,8 @@ const keyboardPages = {
         "Связаться с поддержкой",
         "Пришлите версию приложения и macOS, режим, шаги воспроизведения и сообщение об ошибке."
       ]
-    ]
+    ],
+    "download": "Скачать"
   },
   "ja": {
     "name": "Keyboard Garden",
@@ -302,7 +306,8 @@ const keyboardPages = {
         "お問い合わせ",
         "アプリとmacOSのバージョン、シーン、再現手順、表示されたエラーをメールでお知らせください。"
       ]
-    ]
+    ],
+    "download": "ダウンロード"
   },
   "ko": {
     "name": "Keyboard Garden",
@@ -363,7 +368,8 @@ const keyboardPages = {
         "지원 문의",
         "앱 및 macOS 버전, 선택한 장면, 재현 단계와 오류 메시지를 이메일로 보내 주세요."
       ]
-    ]
+    ],
+    "download": "다운로드"
   },
   "fr": {
     "name": "Keyboard Garden",
@@ -424,6 +430,7 @@ const keyboardPages = {
         "Contacter l’assistance",
         "Envoyez par e-mail les versions de l’app et de macOS, la scène, les étapes de reproduction et le message d’erreur."
       ]
-    ]
+    ],
+    "download": "Télécharger"
   }
 };
